@@ -3,15 +3,15 @@
         name: "",
         top5: [1, 2, 3, 4, 5],
     };
-    url = "https://hummingbird.me/api/v2";
-    query = "/anime/2";
-    $.ajax({
-        url: url + query,
-    }).done(function(data) {
-        console.log(data);
-    }.fail(function() {
-    alert( "error" );
-  })
-);
+    var url = "https://hummingbird.me/api/v1/anime/2";
+    var query = "/anime/2";
+    var aRequest = $.ajax({
+        url: url,
+        jsonp: "callback",
+        dataType: "json",
+    });
+    aRequest.done(function(response){
+      alert(response);
+    });
 
 }());
