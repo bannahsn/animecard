@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    
+
     cardForm = {
         name: "",
         top5: [1, 2, 3, 4, 5],
@@ -12,7 +12,7 @@ $(document).ready(function(){
           console.log(data);
      }
     });
-    
+
     $('#anime-form').submit(function(e) {
             e.preventDefault();
             var formData = $('#anime-form').serializeArray();
