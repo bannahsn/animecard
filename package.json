@@ -1,0 +1,23 @@
+{
+  "name": "animecard",
+  "version": "1.0.0",
+  "description": "An anime card that shows a person's top 5 anime and who their favourite waifu/husbandu # Contributors - [Hasan Banna](https://github.com/bannahsn) - [Amrish Parmar](https://github.com/amrishparmar)",
+  "main": "animecard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bannahsn/animecard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bannahsn/animecard/issues"
+  },
+  "homepage": "https://github.com/bannahsn/animecard#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
