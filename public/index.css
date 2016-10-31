@@ -5,6 +5,39 @@ body{
   width:800px;
   margin: 0 auto;
 }
+#anime-form {
+  background-color:lightblue;
+  text-align: center;
+}
+#anime-form hr{
+  width:90%;
+  border:1px black dashed;
+}
+#anime-form label{
+  font-weight:bold;
+}
+#anime-form input{
+  margin:1%;
+  width:60%;
+  height:30px;
+  border:0;
+}
+#anime-form input:focus{
+  outline:none;
+}
+#anime-form button{
+  font-size:16px;
+  margin:10px 10px;
+  border:0;
+  width:40%;
+  height:40px;
+  color:white;
+  background-color:#F7A11D;
+}
+#anime-form button:hover{
+  background-color:#F7A81D;
+  cursor:hand;
+}
 a{
   text-decoration: none;
   color:inherit;
@@ -17,8 +50,8 @@ a:hover{
   padding:1%;
 }
 .top-anime{
-  width:100%;
-  height:auto;
+  width:50%;
+  height:50%;
 }
 .waifu{
   float:left;

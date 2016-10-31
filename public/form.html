@@ -1,36 +1,44 @@
 <html>
-  <head>
-    <script  src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="animecard.js"></script>
     <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <form id="anime-form">
-      <fieldset>
-        <label for="name">What is your name?</label>
-        <input type="text" name="name"><br>
-        <label for="favorite">Enter your top 5 favorite anime :</label>
-        <input type="text" name="favorite1"><br>
-        <input type="text" name="favorite2"><br>
-        <input type="text" name="favorite3"><br>
-        <input type="text" name="favorite4"><br>
-        <input type="text" name="favorite5"><br>
-		  <label for="favorite">Your anime wife or husband </label>
-        <input type="text">
-        <br>
-        <input type="submit" value="Submit">
-      </fieldset>
+            <h2 style="padding-top:20px;">Enter your details</h2>
+            <hr>
+            <label>name</label>
+            <br>
+            <input type="text" name="name"><br>
+            <br>
+            <label>Top 5 favourite anime</label>
+            <br>
+            <input type="text" name="favorite1"><br>
+            <input type="text" name="favorite2"><br>
+            <input type="text" name="favorite3"><br>
+            <input type="text" name="favorite4"><br>
+            <input type="text" name="favorite5"><br>
+            <label>Waifu/Husbandu</label>
+            <br>
+            <input type="text">
+            <br>
+            <button type="submit" name="button"> make card</button>
+        </fieldset>
     </form>
     <div id="card">
-      <img class="top-anime" src="#" alt="top anime">
-      <h2>John Cena</h2>
-      <div class="waifu"> this is the waifu border</div>
-      <ol class="top-5-list"></ol>
-      <div class="social-links">
-      <a href="#" class="facebook">facebook</a>
-      <a href="#" class="twitter">twitter</a>
-      <a href="#" class="myanimelist">my anime list</a>
-      </div>
+        <img class="top-anime" src="#" alt="top anime">
+        <h2>John Cena</h2>
+        <div class="waifu"> this is the waifu border</div>
+        <ol class="top-5-list"></ol>
+        <div class="social-links">
+            <a href="#" class="facebook">facebook</a>
+            <a href="#" class="twitter">twitter</a>
+            <a href="#" class="myanimelist">my anime list</a>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>
